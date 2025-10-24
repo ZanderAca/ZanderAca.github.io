@@ -182,12 +182,17 @@ section {
 #hero {
     display: flex;
 
+    align-items: flex-start;
+
     justify-content: space-between;
 }
 
 .hero-text{
+    display: flex;
 
-    width: 55%;
+    flex-direction: column;
+    
+    max-width: 300px;
 }
 
 #avatar {
