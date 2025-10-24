@@ -180,13 +180,17 @@ section {
 /* 5a. Hero section */
 /* TODO 11: Declare the display property to separate the content on the 2 sides */
 #hero {
-
+    display: flex;
 
     justify-content: space-between;
 }
 
+.hero-text{
+    width: 55%;
+}
+
 #avatar {
-    width: 40%;
+    width: 100%;
     aspect-ratio: 1.618/1;
 }
 
